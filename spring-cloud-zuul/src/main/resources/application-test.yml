@@ -2,6 +2,6 @@ spring:
   cloud:
     config:
       uri: http://localhost:8888
-      name: spring-cloud-zuul/spring-cloud-zuul
+      name: spring-cloud-zuul
       label: master
       profile: test
