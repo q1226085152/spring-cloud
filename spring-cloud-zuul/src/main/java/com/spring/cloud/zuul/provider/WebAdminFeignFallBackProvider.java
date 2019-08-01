@@ -18,7 +18,7 @@ import java.util.Map;
 public class WebAdminFeignFallBackProvider implements FallbackProvider {
     @Override
     public String getRoute() {
-        return "hello-spring-cloud-web-admin-feign";
+        return "spring-cloud-web-admin-feign";
     }
 
     @Override
