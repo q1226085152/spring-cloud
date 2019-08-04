@@ -5,5 +5,3 @@ spring:
       name: spring-cloud-eureka
       label: master
       profile: test
-server:
-  port: 8761

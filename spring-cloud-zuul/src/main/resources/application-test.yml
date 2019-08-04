@@ -5,5 +5,3 @@ spring:
       name: spring-cloud-zuul
       label: master
       profile: test
-server:
-  port: 8768
