@@ -5,5 +5,5 @@ spring:
       name: spring-cloud-eureka
       label: master
       profile: dev
-server:
-  port: 8761
+#server:
+#  port: 8761
