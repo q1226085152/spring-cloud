@@ -5,3 +5,5 @@ spring:
       name: spring-cloud-admin
       label: master
       profile: prod
+server:
+  port: 8084

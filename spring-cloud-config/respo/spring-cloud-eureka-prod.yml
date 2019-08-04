@@ -7,8 +7,8 @@ spring:
     admin:
       client:
         url: http://localhost:8084
-server:
-  port: 8761
+#server:
+#  port: 8761
 
 eureka:
   instance:
