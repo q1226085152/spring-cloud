@@ -19,3 +19,11 @@ zuul:
     api-a:
       path: /api/a/**
       serviceId: spring-cloud-web-admin-feign
+management:
+  endpoint:
+    health:
+      show-details: always
+  endpoints:
+    web:
+      exposure:
+        include: {"health","info"}
