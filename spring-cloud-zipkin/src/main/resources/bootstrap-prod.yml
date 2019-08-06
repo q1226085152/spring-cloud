@@ -5,3 +5,5 @@ spring:
       name: spring-cloud-zipkin
       label: master
       profile: prod
+server:
+  port: 9411

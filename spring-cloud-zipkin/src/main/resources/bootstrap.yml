@@ -2,6 +2,8 @@ spring:
   cloud:
     config:
       uri: http://localhost:8888
-      name: spring-cloud-eureka
+      name: spring-cloud-zipkin
       label: master
-      profile: test
+      profile: dev
+server:
+  port: 9411

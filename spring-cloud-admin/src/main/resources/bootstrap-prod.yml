@@ -4,4 +4,6 @@ spring:
       uri: http://localhost:8888
       name: spring-cloud-admin
       label: master
-      profile: test
+      profile: prod
+server:
+  port: 8084

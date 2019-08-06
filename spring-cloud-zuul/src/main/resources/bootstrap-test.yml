@@ -2,6 +2,8 @@ spring:
   cloud:
     config:
       uri: http://localhost:8888
-      name: spring-cloud-eureka
+      name: spring-cloud-zuul
       label: master
-      profile: dev
+      profile: test
+server:
+  port: 8768

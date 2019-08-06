@@ -2,18 +2,17 @@ spring:
   application:
     name: spring-cloud-config
   zipkin:
-    base-url: http://localhost:9411
+    base-url: ${APP_ZIPKIN_BASE_URL:http://localhost:9411}
   boot:
     admin:
       client:
-        url: http://localhost:8084
-server:
-  port: 8888
+        url: ${APP_BOOT_ADMIN_CLIENT_URL:http://localhost:8084}
+
 
 eureka:
   client:
     serviceUrl:
-      defaultZone: http://localhost:8761/eureka/
+      defaultZone: ${APP_EUREKA_CLIENT_SERVICEURL_DEFAULTZONE:http://localhost:8761/eureka/}
 
 management:
   endpoint:
